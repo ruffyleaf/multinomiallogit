@@ -1,0 +1,15 @@
+Mlogit Simple Example / Exercise
+========================================================
+Install the Library
+```{r}
+install.packages("mlogit")
+library("mlogit")
+```
+
+Read in the Data
+```{r}
+mydata <- read.csv("multinomial_fishing1.csv")
+attach(mydata)
+
+table(mode)
+```
